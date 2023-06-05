@@ -76,6 +76,10 @@ function App() {
           <input type="submit" />
         </div>
       </form>
+       guest use <br></br>
+        username: user1
+        <br></br>
+      password: pass1
     </div>
   );
 
@@ -101,10 +105,7 @@ function App() {
         <UserForm />
 
         </div> : renderForm}
-        guest use <br></br>
-        username: user1
-        <br></br>
-      password: pass1
+       
       </div>
     </div>
   );
